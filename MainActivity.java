@@ -3,11 +3,10 @@ package com.example.android.bookstore;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.example.android.bookstore.data.BookStoreContract;
 import com.example.android.bookstore.data.BookStoreContract.BookEntry;
 import com.example.android.bookstore.data.BookStoreDbHelper;
 
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         long newRowId = db.insert(BookEntry.TABLE_NAME, null, values);
 
-        Log.i (LOG_TAG, "New Row id: " + newRowId);
+        Log.i(LOG_TAG, "New Row id: " + newRowId);
     }
 
     private void queryData() {

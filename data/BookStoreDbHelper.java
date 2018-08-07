@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import com.example.android.bookstore.data.BookStoreContract.BookEntry;
 
-public class BookStoreDbpwdHelper extends SQLiteOpenHelper {
+public class BookStoreDbHelper extends SQLiteOpenHelper {
 
     public static final String LOG_TAG = "BookStoreHelper.java";
 
